@@ -21,8 +21,4 @@
     <None Include="wwwroot\img\portfolio\submarine.png" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="startbootstrap-freelancer-gh-pages\assets\" />
-  </ItemGroup>
-
 </Project>
