@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MTIvanov19\\source\\repos\\Project\\RandomNameIDK\\RandomNameIDK\\RandomNameIDK.csproj": {}
+    "C:\\Users\\DIPeychev19\\source\\repos\\WebApp\\Project\\RandomNameIDK\\RandomNameIDK\\RandomNameIDK.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MTIvanov19\\source\\repos\\Project\\RandomNameIDK\\RandomNameIDK\\RandomNameIDK.csproj": {
+    "C:\\Users\\DIPeychev19\\source\\repos\\WebApp\\Project\\RandomNameIDK\\RandomNameIDK\\RandomNameIDK.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MTIvanov19\\source\\repos\\Project\\RandomNameIDK\\RandomNameIDK\\RandomNameIDK.csproj",
+        "projectUniqueName": "C:\\Users\\DIPeychev19\\source\\repos\\WebApp\\Project\\RandomNameIDK\\RandomNameIDK\\RandomNameIDK.csproj",
         "projectName": "RandomNameIDK",
-        "projectPath": "C:\\Users\\MTIvanov19\\source\\repos\\Project\\RandomNameIDK\\RandomNameIDK\\RandomNameIDK.csproj",
-        "packagesPath": "C:\\Users\\MTIvanov19\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MTIvanov19\\source\\repos\\Project\\RandomNameIDK\\RandomNameIDK\\obj\\",
+        "projectPath": "C:\\Users\\DIPeychev19\\source\\repos\\WebApp\\Project\\RandomNameIDK\\RandomNameIDK\\RandomNameIDK.csproj",
+        "packagesPath": "C:\\Users\\DIPeychev19\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DIPeychev19\\source\\repos\\WebApp\\Project\\RandomNameIDK\\RandomNameIDK\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\MTIvanov19\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DIPeychev19\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,6 +45,18 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.28, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.28, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
