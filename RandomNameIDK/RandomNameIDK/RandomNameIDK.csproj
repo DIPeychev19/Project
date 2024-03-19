@@ -6,4 +6,23 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\favicon.ico" />
+    <None Include="wwwroot\img\avataaars.svg" />
+    <None Include="wwwroot\img\portfolio\cabin.png" />
+    <None Include="wwwroot\img\portfolio\cake.png" />
+    <None Include="wwwroot\img\portfolio\circus.png" />
+    <None Include="wwwroot\img\portfolio\game.png" />
+    <None Include="wwwroot\img\portfolio\safe.png" />
+    <None Include="wwwroot\img\portfolio\submarine.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="startbootstrap-freelancer-gh-pages\assets\" />
+  </ItemGroup>
+
 </Project>
